@@ -11,7 +11,13 @@ module.exports = {
               host: "localhost",
               port: 8545,
               network_id: "4224",
-              gas: 4700000,
+              gas: 4700000
+          },
+          rinkeby: {
+              host: "localhost",
+              port: 8545,
+              network_id: 4, //rinkeby test network standart
+              gas: 4700000
           }
      }
 };
